@@ -73,7 +73,9 @@
     "lint:css": "stylelint src/**/*.css",
     "generate": "cross-env TS_NODE_PROJECT='./internals/ts-node.tsconfig.json' plop --plopfile internals/generators/plopfile.ts",
     "prettify": "prettier --write",
-    "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js"
+    "extract-messages": "i18next-scanner --config=internals/extractMessages/i18next-scanner.config.js",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "browserslist": {
     "production": [
@@ -112,7 +114,8 @@
       "!src/**/*/messages.ts",
       "!src/**/*/types.ts",
       "!src/index.tsx",
-      "!src/serviceWorker.ts"
+      "!src/serviceWorker.ts",
+      "!src/**/*/*.stories.{ts,tsx}"
     ],
     "coverageThreshold": {
       "global": {
@@ -122,5 +125,13 @@
         "statements": 90
       }
     }
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.1.14",
+    "@storybook/addon-essentials": "^6.1.14",
+    "@storybook/addon-links": "^6.1.14",
+    "@storybook/node-logger": "^6.1.14",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.14"
   }
 }
