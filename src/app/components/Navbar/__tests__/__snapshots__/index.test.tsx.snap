@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar  /> should match snapshot 1`] = `
+.c1 {
+  vertical-align: middle;
+}
+
+.c0 {
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #dee2e6;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.c2 {
+  color: #007bff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #212529;
+}
+
+.c2:not(:last-child) {
+  margin-right: 16px;
+}
+
+.c2:hover {
+  color: #007bff;
+}
+
+<div
+  class="c0"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="Logo"
+      class="c1"
+      height="64"
+      src="https://logoipsum.com/logo/logo-12.svg"
+    />
+  </a>
+  <div>
+    <a
+      class="Link-d3ux6x-0 c2"
+      href="/"
+    >
+      Home page
+    </a>
+    <a
+      class="Link-d3ux6x-0 c2"
+      href="/"
+    >
+      My favorite
+    </a>
+    <a
+      class="Link-d3ux6x-0 c2"
+      href="/"
+    >
+      About
+    </a>
+  </div>
+</div>
+`;

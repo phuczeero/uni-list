@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link  /> should match snapshot 1`] = `
+.c0 {
+  color: #007bff;
+}
+
+<a
+  class="c0"
+  href="/"
+  theme="[object Object]"
+>
+  Test
+</a>
+`;

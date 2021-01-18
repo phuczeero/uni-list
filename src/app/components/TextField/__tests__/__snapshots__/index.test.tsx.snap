@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField  /> should match snapshot 1`] = `
+.c0 {
+  outline: none;
+  padding: 8px;
+  border-radius: 6px;
+  border: 2px solid #dee2e6;
+}
+
+<input
+  class="c0"
+/>
+`;
