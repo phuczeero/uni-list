@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsletterButton /> should render and match the snapshot 1`] = `
+.c0 {
+  outline: none;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  border: 2px solid #007bff;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: #004896;
+  border-color: #004896;
+}
+
+<button
+  class="c0"
+>
+  Newsletter
+</button>
+`;

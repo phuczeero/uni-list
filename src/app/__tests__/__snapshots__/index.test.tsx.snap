@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <Helmet
+    defaultTitle="React Boilerplate"
+    defer={true}
+    encodeSpecialCharacters={true}
+    htmlAttributes={
+      Object {
+        "lang": undefined,
+      }
+    }
+    titleTemplate="%s - React Boilerplate"
+  >
+    <meta
+      content="A React Boilerplate application"
+      name="description"
+    />
+  </Helmet>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "576px",
+          "768px",
+          "992px",
+          "1200px",
+        ],
+        "colors": Object {
+          "blues": Object {
+            "dark": "#004896",
+            "light": "#dcedff",
+          },
+          "danger": "#dc3545",
+          "muted": "#dee2e6",
+          "primary": "#007bff",
+          "text": "#212529",
+        },
+        "fontSizes": Array [
+          12,
+          14,
+          16,
+          20,
+          24,
+          32,
+          48,
+          64,
+          72,
+        ],
+        "fonts": Object {
+          "body": "-apple-system, BlinkMacSystemFont,\\"Segoe UI\\",Roboto,\\"Helvetica Neue\\",Arial,\\"Noto Sans\\",sans-serif,\\"Apple Color Emoji\\",\\"Segoe UI Emoji\\",\\"Segoe UI Symbol\\",\\"Noto Color Emoji\\"",
+        },
+        "radii": Object {
+          "circle": 99999,
+          "default": 6,
+        },
+        "shadows": Object {
+          "card": "0 0 4px rgba(0, 0, 0, .125)",
+        },
+        "sizes": Object {
+          "navbar": 64,
+          "spinner": 32,
+        },
+        "space": Array [
+          0,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+        ],
+      }
+    }
+  >
+    <Navbar />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+      />
+    </Switch>
+    <Memo(GlobalStyleComponent) />
+  </ThemeProvider>
+</BrowserRouter>
+`;

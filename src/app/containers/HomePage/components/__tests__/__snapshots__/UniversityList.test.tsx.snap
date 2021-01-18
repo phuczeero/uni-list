@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UniversityList /> should render not found message 1`] = `
+.c0 {
+  color: #dee2e6;
+  font-size: 32px;
+  padding-top: 32px;
+}
+
+<div
+  class="c0"
+>
+  No results found.
+</div>
+`;
+
+exports[`<UniversityList /> should render spinner 1`] = `
+.c1 {
+  -webkit-animation: cqkDSr 2.625s linear infinite;
+  animation: cqkDSr 2.625s linear infinite;
+  height: 32px;
+  width: 32px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+}
+
+.c2 {
+  -webkit-animation: caVMmK 1.5s ease-in-out infinite;
+  animation: caVMmK 1.5s ease-in-out infinite;
+  stroke: #007bff;
+  stroke-linecap: round;
+}
+
+.c0 {
+  text-align: center;
+  padding: 32px 0;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    class="c1"
+    viewBox="-24 -24 48 48"
+  >
+    <circle
+      class="c2"
+      cx="0"
+      cy="0"
+      fill="none"
+      r="20"
+      stroke-width="4"
+    />
+  </svg>
+</div>
+`;
+
+exports[`<UniversityList /> should render university list 1`] = `
+.c2 {
+  padding: 16px;
+  box-shadow: 0 0 4px rgba(0,0,0,.125);
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c5 {
+  padding: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 12px;
+  border-radius: 99999px;
+  display: inline-block;
+  min-width: 64px;
+  text-align: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -8px;
+  margin-top: 16px;
+}
+
+.c3 {
+  height: 100%;
+}
+
+.c1 {
+  width: 100%;
+  padding: 8px;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media (min-width:992px) {
+  .c1 {
+    width: 33.33%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 c3"
+    >
+      <div
+        class="c4"
+      >
+        test
+      </div>
+      <div>
+        <div>
+          <div
+            class="c5"
+          />
+          <h4>
+            Web pages:
+          </h4>
+          <ul>
+            <li>
+              <a
+                href="test.name"
+                rel="noreferrer"
+                target="_blank"
+              >
+                test.name
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

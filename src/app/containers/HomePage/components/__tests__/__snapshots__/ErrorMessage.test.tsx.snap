@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage /> should render and match the snapshot 1`] = `
+.c3 {
+  outline: none;
+  padding: 8px;
+  background-color: transparent;
+  color: #007bff;
+  border-radius: 6px;
+  border: 2px solid #007bff;
+}
+
+.c3:hover,
+.c3:focus {
+  background-color: #dcedff;
+  border-color: #007bff;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(255,255,255,0.75);
+}
+
+.c1 {
+  padding: 16px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.c2 {
+  color: #dc3545;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <div
+      class="c2"
+    >
+      test
+    </div>
+    <button
+      class="c3"
+    >
+      Okay
+    </button>
+  </div>
+</div>
+`;
