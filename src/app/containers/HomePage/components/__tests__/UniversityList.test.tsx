@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
-import { theme } from 'styles/theme';
-import { UniversityList } from '../UniversityList';
 import { Provider } from 'react-redux';
+import { render } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components/macro';
+
+import { theme } from 'styles/theme';
 import { configureAppStore } from 'store/configureStore';
+import { UniversityList } from '../UniversityList';
 
 const renderUniversityList = store =>
   render(

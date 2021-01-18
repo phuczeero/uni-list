@@ -1,12 +1,11 @@
 import * as React from 'react';
-import { fireEvent, render } from '@testing-library/react';
-import { ErrorMessage } from '../ErrorMessage';
-import { ThemeProvider } from 'styled-components';
-import { theme } from 'styles/theme';
-import { NewsletterButton } from '../NewsletterButton';
 import { Provider } from 'react-redux';
-import { Store } from '@reduxjs/toolkit';
+import { render } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components/macro';
+
+import { theme } from 'styles/theme';
 import { configureAppStore } from 'store/configureStore';
+import { NewsletterButton } from '../NewsletterButton';
 
 const renderNewsletterButton = store =>
   render(

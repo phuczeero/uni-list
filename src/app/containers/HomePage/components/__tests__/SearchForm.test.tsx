@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { fireEvent, render } from '@testing-library/react';
-import { SearchForm } from '../SearchForm';
-import { ThemeProvider } from 'styled-components';
-import { theme } from 'styles/theme';
 import { Provider } from 'react-redux';
+import { fireEvent, render } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components/macro';
+
+import { theme } from 'styles/theme';
 import { configureAppStore } from 'store/configureStore';
+import { SearchForm } from '../SearchForm';
 import { homePageActions } from '../../slice';
 
 const renderSearchForm = store =>
@@ -37,5 +38,17 @@ describe('<SearchForm />', () => {
     fireEvent.change(input, { target: { value: searchTerm } });
     fireEvent.submit(form);
     expect(mock).toBeCalledWith(homePageActions.loadUniversities(searchTerm));
+  });
+
+  it('should handle invalid submit and re-focus', () => {
+    const component = renderSearchForm(store);
+    const input = component.getByPlaceholderText('Search universities');
+    const form = component.container.querySelector('form') as HTMLFormElement;
+    const searchTerm = '';
+    fireEvent.change(input, { target: { value: searchTerm } });
+    fireEvent.submit(form);
+    const button = component.getByRole('button');
+    fireEvent.click(button);
+    expect(document.activeElement).toEqual(input);
   });
 });

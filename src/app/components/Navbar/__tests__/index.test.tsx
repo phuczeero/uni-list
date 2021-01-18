@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
+import { fireEvent, render } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components/macro';
 
 import { Navbar } from '..';
 import { theme } from 'styles/theme';
@@ -18,6 +18,14 @@ const renderWithTheme = () =>
 describe('<Navbar  />', () => {
   it('should match snapshot', () => {
     const component = renderWithTheme();
+    expect(component.container.firstChild).toMatchSnapshot();
+  });
+
+  it('should handle toggle menu', () => {
+    const component = renderWithTheme();
+    expect(component.container.firstChild).toMatchSnapshot();
+    const button = component.getByRole('button');
+    fireEvent.click(button);
     expect(component.container.firstChild).toMatchSnapshot();
   });
 });

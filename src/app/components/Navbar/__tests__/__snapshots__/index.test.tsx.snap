@@ -1,5 +1,217 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Navbar  /> should handle toggle menu 1`] = `
+.c1 {
+  vertical-align: middle;
+}
+
+.c0 {
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #dee2e6;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.c5 {
+  color: #007bff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: #212529;
+}
+
+.c5:not(:last-child) {
+  margin-right: 16px;
+}
+
+.c5:hover {
+  color: #007bff;
+}
+
+.c2 {
+  outline: none;
+  padding: 8px;
+  background-color: transparent;
+  color: #007bff;
+  border-radius: 6px;
+  border: 2px solid #007bff;
+  border-color: #dee2e6;
+}
+
+.c2:hover,
+.c2:focus {
+  background-color: #dcedff;
+  border-color: #007bff;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 64px;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,.125);
+  visibility: hidden;
+}
+
+.c3 .c4 {
+  padding: 8px 16px;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    position: static;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    visibility: visible;
+    box-shadow: none;
+  }
+}
+
+<div
+  class="c0"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="Logo"
+      class="c1"
+      height="64"
+      src="https://logoipsum.com/logo/logo-12.svg"
+    />
+  </a>
+  <button
+    class="Button-sc-1ngd5x2-0 c2"
+  >
+    <svg
+      fill="currentColor"
+      height="32"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="c3"
+  >
+    <a
+      class="Link-d3ux6x-0 c4 c5"
+      href="/"
+    >
+      Home page
+    </a>
+    <a
+      class="Link-d3ux6x-0 c4 c5"
+      href="/favorite"
+    >
+      My favorite
+    </a>
+    <a
+      class="Link-d3ux6x-0 c4 c5"
+      href="/about"
+    >
+      About
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<Navbar  /> should handle toggle menu 2`] = `
+<div
+  class="Navbar__Wrapper-sc-1a0yidc-0 jvWtYF"
+>
+  <a
+    href="/"
+  >
+    <img
+      alt="Logo"
+      class="Logo__Img-sc-8hwfcr-0 jgWJOo"
+      height="64"
+      src="https://logoipsum.com/logo/logo-12.svg"
+    />
+  </a>
+  <button
+    class="Button-sc-1ngd5x2-0 Navbar__NavButton-sc-1a0yidc-2 bKlHtF"
+  >
+    <svg
+      fill="currentColor"
+      height="32"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="Navbar__MenuWrapper-sc-1a0yidc-3 jApZVE"
+  >
+    <a
+      class="Link-d3ux6x-0 Navbar__NavLink-sc-1a0yidc-1 hjutsT"
+      href="/"
+    >
+      Home page
+    </a>
+    <a
+      class="Link-d3ux6x-0 Navbar__NavLink-sc-1a0yidc-1 hjutsT"
+      href="/favorite"
+    >
+      My favorite
+    </a>
+    <a
+      class="Link-d3ux6x-0 Navbar__NavLink-sc-1a0yidc-1 hjutsT"
+      href="/about"
+    >
+      About
+    </a>
+  </div>
+</div>
+`;
+
 exports[`<Navbar  /> should match snapshot 1`] = `
 .c1 {
   vertical-align: middle;
@@ -26,7 +238,7 @@ exports[`<Navbar  /> should match snapshot 1`] = `
   height: 64px;
 }
 
-.c2 {
+.c5 {
   color: #007bff;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -34,12 +246,67 @@ exports[`<Navbar  /> should match snapshot 1`] = `
   color: #212529;
 }
 
-.c2:not(:last-child) {
+.c5:not(:last-child) {
   margin-right: 16px;
 }
 
-.c2:hover {
+.c5:hover {
   color: #007bff;
+}
+
+.c2 {
+  outline: none;
+  padding: 8px;
+  background-color: transparent;
+  color: #007bff;
+  border-radius: 6px;
+  border: 2px solid #007bff;
+  border-color: #dee2e6;
+}
+
+.c2:hover,
+.c2:focus {
+  background-color: #dcedff;
+  border-color: #007bff;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 64px;
+  background-color: white;
+  padding: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,.125);
+  visibility: hidden;
+}
+
+.c3 .c4 {
+  padding: 8px 16px;
+}
+
+@media (min-width:768px) {
+  .c2 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    position: static;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    visibility: visible;
+    box-shadow: none;
+  }
 }
 
 <div
@@ -55,22 +322,43 @@ exports[`<Navbar  /> should match snapshot 1`] = `
       src="https://logoipsum.com/logo/logo-12.svg"
     />
   </a>
-  <div>
+  <button
+    class="Button-sc-1ngd5x2-0 c2"
+  >
+    <svg
+      fill="currentColor"
+      height="32"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 20 20"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+  <div
+    class="c3"
+  >
     <a
-      class="Link-d3ux6x-0 c2"
+      class="Link-d3ux6x-0 c4 c5"
       href="/"
     >
       Home page
     </a>
     <a
-      class="Link-d3ux6x-0 c2"
-      href="/"
+      class="Link-d3ux6x-0 c4 c5"
+      href="/favorite"
     >
       My favorite
     </a>
     <a
-      class="Link-d3ux6x-0 c2"
-      href="/"
+      class="Link-d3ux6x-0 c4 c5"
+      href="/about"
     >
       About
     </a>

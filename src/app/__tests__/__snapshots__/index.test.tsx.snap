@@ -85,6 +85,14 @@ exports[`<App /> should render and match the snapshot 1`] = `
       />
       <Route
         component={[Function]}
+        path="/favorite"
+      />
+      <Route
+        component={[Function]}
+        path="/about"
+      />
+      <Route
+        component={[Function]}
       />
     </Switch>
     <Memo(GlobalStyleComponent) />

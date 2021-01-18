@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 
 import { theme } from 'styles/theme';
 import { SearchField } from '..';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components/macro';
 
 const renderWithTheme = () =>
   render(

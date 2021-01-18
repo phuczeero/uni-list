@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { fireEvent, render } from '@testing-library/react';
-import { ErrorMessage } from '../ErrorMessage';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components/macro';
+
 import { theme } from 'styles/theme';
+import { ErrorMessage } from '../ErrorMessage';
 
 const renderWithTheme = props =>
   render(

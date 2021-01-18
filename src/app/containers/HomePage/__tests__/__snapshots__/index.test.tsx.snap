@@ -89,6 +89,10 @@ exports[`<HomePage /> should display university list 1`] = `
   }
 }
 
+@media (min-width:992px) {
+
+}
+
 <div
   class="c0"
 >
@@ -177,7 +181,7 @@ exports[`<HomePage /> should display welcome message when searchTerm is empty 1`
 }
 
 .c7 {
-  font-size: 32px;
+  font-size: 20px;
   color: #dee2e6;
 }
 
@@ -217,6 +221,12 @@ exports[`<HomePage /> should display welcome message when searchTerm is empty 1`
 @media (min-width:1200px) {
   .c0 {
     max-width: 1200px;
+  }
+}
+
+@media (min-width:992px) {
+  .c7 {
+    font-size: 24px;
   }
 }
 
@@ -265,7 +275,9 @@ exports[`<HomePage /> should display welcome message when searchTerm is empty 1`
         <div
           class="c7"
         >
-          To find your universities by name, enter the keyword to the search box above
+          <span>
+            To find your universities by name, enter the keyword to the search box above
+          </span>
         </div>
       </div>
     </div>
